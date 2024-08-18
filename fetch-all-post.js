@@ -16,7 +16,7 @@
 								}
 							
 								function displayMediumPosts(posts) {
-									const mediumPostsContainer = document.getElementById('medium-posts');
+									const mediumPostsContainer = document.getElementById('medium-posts'); //change ID to display your post or use same ID
 									mediumPostsContainer.innerHTML = '';
 							
 									posts.forEach(post => {
